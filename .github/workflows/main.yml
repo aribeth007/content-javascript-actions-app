@@ -16,4 +16,4 @@ jobs:
           name: 'Alex' # change it to your name
       # Use the output from the `hello` step
       - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+        run: echo "The time was ${{ steps.first-step.outputs.time }}"
